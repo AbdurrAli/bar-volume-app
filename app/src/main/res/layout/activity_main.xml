@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light"
+    android:fillViewport="false"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="32dp"
+        android:background="@color/light"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/opensans_semibold"
+            android:text="@string/label_panjang"
+            android:textColor="@color/gray600"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/inpt_panjang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_input"
+            android:fontFamily="@font/opensans_regular"
+            android:hint="@string/placeholder_panjang"
+            android:inputType="numberDecimal"
+            android:padding="14dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/opensans_semibold"
+            android:text="@string/label_lebar"
+            android:textColor="@color/gray600"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/inpt_lebar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_input"
+            android:fontFamily="@font/opensans_regular"
+            android:hint="@string/placeholder_lebar"
+            android:inputType="numberDecimal"
+            android:padding="14dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/opensans_semibold"
+            android:text="@string/label_tinggi"
+            android:textColor="@color/gray600"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/inpt_tinggi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_input"
+            android:fontFamily="@font/opensans_regular"
+            android:hint="@string/placeholder_tinggi"
+            android:inputType="numberDecimal"
+            android:padding="14dp" />
+
+        <Button
+            android:id="@+id/btn_calculate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:fontFamily="@font/opensans_bold"
+            android:paddingVertical="16dp"
+            android:text="@string/placeholder_hitung"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="64dp"
+            android:fontFamily="@font/opensans_medium"
+            android:text="@string/placeholder_header"
+            android:textAlignment="center"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/hasil_hitung"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/opensans_medium"
+            android:text="@string/placeholder_hasil"
+            android:textAlignment="center"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</ScrollView>

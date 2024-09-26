@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="violet50">#f5f3ff</color>
+    <color name="violet100">#ede9fe</color>
+    <color name="violet200">#ddd6fe</color>
+    <color name="violet300">#c4b5fd</color>
+    <color name="violet400">#a78bfa</color>
+    <color name="violet500">#8b5cf6</color>
+    <color name="violet600">#7c3aed</color>
+    <color name="violet700">#6d28d9</color>
+    <color name="violet800">#5b21b6</color>
+    <color name="violet900">#4c1d95</color>
+    <color name="violet950">#2e1065</color>
+</resources>

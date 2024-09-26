@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gray50">#f9fafb</color>
+    <color name="gray100">#f3f4f6</color>
+    <color name="gray200">#e5e7eb</color>
+    <color name="gray300">#d1d5db</color>
+    <color name="gray400">#9ca3af</color>
+    <color name="gray500">#6b7280</color>
+    <color name="gray600">#4b5563</color>
+    <color name="gray700">#374151</color>
+    <color name="gray800">#1f2937</color>
+    <color name="gray900">#111827</color>
+    <color name="gray950">#030712</color>
+</resources>

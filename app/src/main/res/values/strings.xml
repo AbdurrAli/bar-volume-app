@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BarVolume</string>
+    <string name="label_panjang">Panjang Balok</string>
+    <string name="label_lebar">Lebar Balok</string>
+    <string name="label_tinggi">Tinggi Balok</string>
+    <string name="placeholder_panjang">Masukkan panjang balok (Cm)</string>
+    <string name="placeholder_lebar">Masukkan lebar balok (Cm)</string>
+    <string name="placeholder_tinggi">Masukkan tinggi balok (Cm)</string>
+    <string name="placeholder_hasil"> </string>
+    <string name="placeholder_hitung">Hitung Volume Balok</string>
+    <string name="placeholder_header">Hasil Ada di bawah ini</string>
+</resources>
